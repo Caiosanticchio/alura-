@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.container_principal{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.185),rgba(0, 0, 0, 0.39)), url("img/Background.png");
+    width: 100%;
+    height: 70vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    font-family: 'Inter';
+}
+
+.titulo{
+    padding: 5em;
+}
+.titulo_principal{
+    width: 20em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.imagem{
+    padding: 0.5em 6em;
+}
+
+.botoes{
+    padding-left: 8em;
+    display: grid;
+    font-family: 'Inter';
+}
+
+.btn1{
+    background-color: #167BF7;
+    padding: 1.5em;
+    width: 450px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn2{
+    width: 450px;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    padding: 1.5em;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ffff;
+    color: #ffff;
+    background: transparent;
+    cursor: pointer;
+}
+
+.texto{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #C0C0C0;
+    padding-left: 14em;
+}
+
+.assine,.dispositivos{
+    padding: 1em 10em;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    color: #ffff;
+}
+
+.imagem2{
+    width: 498px;
+    height: 560px;
+}
+
+.titulo_assine{
+    margin: 5em;
+}
+
+.dispositivos{
+    margin: 3em;
+}
+
+.titulo_assista{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.titulo_favoritos{
+    font-size: 48px;
+}
+
+.texto2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F9F9F9;
+    opacity: 0.8;
+}
+
+.assine_combo{
+    display: flex;
+    margin-top: 7em;
+    padding: 5em 7em;
+}
+
+.texto_combo{
+    margin: 5em;
+}
+
+.combo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+    background: #167BF7;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.aparelhos{
+    text-align: center;
+    padding: 7em;
+}
+
+.titulo_aparelhos{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+}
+.lista_aparelhos{
+    display: inline-block;
+}
+
+.texto4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+}
+
+.rodape{
+    text-align: center;
+}
+
+.alura{
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+}
+
+.links{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.texto_rodape{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #C0C0C0;
+    padding: 2em;
+}
+
+
+
+
+
